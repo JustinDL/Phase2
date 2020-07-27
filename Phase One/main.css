@@ -1,0 +1,6 @@
+/*
+targets class which is added on checking an item off, adds line through to text
+*/
+.crossed{
+    text-decoration: line-through;
+}

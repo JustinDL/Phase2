@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="stylesheet" href="main.css">
+        
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+            type="text/javascript" charset="utf-8"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+            type="text/javascript" charset="utf-8"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"
+            type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css"
+            href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <script src="main.js" async></script>
+    </head>
+    <body>
+        <!-- Title of Assignment-->
+        <h1>Justins To Do List</h1>
+
+        <!-- div which has a meaningless class I thought i might use-->
+        <div class="list">
+            <p>To Do:</p>
+            <!-- initial input -->
+            <input type="text" class="listItem">
+            <!-- input for location -->
+            <p>Location: </p>
+            <input type="text" id= "loc">
+
+            <!-- button to add above input to list -->
+            <button class="add">Add to list</button>
+
+        </div>
+
+        <div style="width: 640px; height: 480px" id = 'map'></div>
+
+        
+    </body>
+</html>
